@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="display:inline;fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect1"
+       width="28.310453"
+       height="15.710484"
+       x="1.9712471"
+       y="9.1372662" />
+    <path
+       style="fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="M 5.6422136,22.651223 14.043758,17.132561 Z"
+       id="path2" />
+    <path
+       style="fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 13.96139,17.173745 3.212355,3.66538 z"
+       id="path3" />
+    <path
+       style="fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 15.773488,19.191763 5.106821,-3.624195 z"
+       id="path4" />
+    <path
+       style="fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 20.756757,15.608752 7.330759,3.583011 z"
+       id="path5" />
+    <circle
+       style="fill:#0000ff;fill-opacity:0;stroke:#0096e6;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path6"
+       cx="9.4311457"
+       cy="13.570142"
+       r="2" />
+  </g>
+</svg>
