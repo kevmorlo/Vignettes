@@ -37,7 +37,6 @@ export default function ResetPassword({ token, email }) {
                     <TextInput
                         id="email"
                         type="email"
-                        id="email"
                         name="email"
                         value={data.email}
                         className="mt-1 block w-full"
@@ -83,7 +82,7 @@ export default function ResetPassword({ token, email }) {
 
                 <div className="flex items-center justify-end mt-4">
                     <PrimaryButton className="ms-4" disabled={processing}>
-                        Reset Password
+                        Réinitialiser le mot de passe
                     </PrimaryButton>
                 </div>
             </form>
