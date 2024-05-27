@@ -20,6 +20,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'anonumber',
     ];
 
     /**
@@ -43,5 +44,24 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public function thumbnail()
+    {
+        return $this->hasMany(Thumbnail::class);
+    }
+
+    /**
+     * Generate a random number for the user.
+     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($user) {
+            do {
+                $anonumber = mt_rand(1, 99999); // Generates a number 4x faster than rand
+            } while (self::where('anonumber', $anonumber)->exists());
+        });
     }
 }

@@ -6,7 +6,7 @@ const Index = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        axios.get('/thumbnail')
+        axios.get('/category')
             .then(response => {
                 setCategories(response.data);
             })
@@ -17,10 +17,10 @@ const Index = () => {
 
     return (
         <div>
-            <h1>Vignettes</h1>
+            <h1>Catégories</h1>
             <ul>
-                {categories.map((thumbnail, index) => (
-                    <li key={index}>{thumbnail}</li>
+                {categories.map((category, index) => (
+                    <li key={index}>{category}</li>
                 ))}
             </ul>
         </div>

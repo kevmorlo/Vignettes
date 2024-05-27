@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { usePage } from '@inertiajs/react';
 import GuestLayout from '@/Layouts/GuestLayout';
 import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
@@ -14,10 +15,12 @@ export default function Register() {
         password_confirmation: '',
     });
 
+    const { auth } = usePage().props;
+
     useEffect(() => {
-        return () => {
-            reset('password', 'password_confirmation');
-        };
+        if (!auth.user || auth.user.role !== 'admin') {
+            return window.location.href = '/';
+        }
     }, []);
 
     const submit = (e) => {
